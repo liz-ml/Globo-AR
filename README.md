@@ -2,7 +2,7 @@
 
 Aplicação em realidade aumentada com animação.
 
-Construído em HTML utilizando um modelo 3D do globo terrestre no formato GLB. A animação já foi imbutida no próprio modelo, assim o código apenas acessa-a.
+Construído em HTML utilizando um modelo 3D do globo terrestre no formato GLB. A animação já foi imbutida no próprio modelo.
 
 # Instruções
 
