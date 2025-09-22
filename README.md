@@ -8,5 +8,5 @@
 
 1. Acessar o link https://jocular-bubblegum-aaba40.netlify.app/ através de um dispositivo móvel e permitir o acesso a câmera.
 
-2. Apontar para o marcador " Hiro ". A aplicação irá aparecer junto da animação.    
+2. Apontar para o marcador " Hiro ". A aplicação irá aparecer junto da animação.    a
 
