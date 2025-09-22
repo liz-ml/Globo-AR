@@ -1,8 +1,8 @@
 # Globo terrestre em Realidade Aumentada 
 
-## Aplicação em realidade aumentada com animação
+Aplicação em realidade aumentada com animação
 
-## Construído em HTML utilizando um modelo 3D do globo terrestre. A animação já foi imbutida no próprio modelo, assim o código apenas acessa-a.
+Construído em HTML utilizando um modelo 3D do globo terrestre. A animação já foi imbutida no próprio modelo, assim o código apenas acessa-a.
 
 # Instruçõs
 
