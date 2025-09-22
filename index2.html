@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Meu Projeto AR</title>
+ <!-- A-Frame núcleo (renderização 3D); cria as cenas, luzes objetos -->
+ <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+ <!-- aframe-extras: habilita animation-mixer para clipes GLB -->
+ <script src="https://cdn.jsdelivr.net/npm/aframe-extras@6.1.1/dist/aframe-extras.min.js"></script>
+ <!-- AR.js para A-Frame (rastreamento marker-based); camada de RA -->
+ <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+ <script src="https://raw.githack.com/fcor/arjs-gestures/master/dist/gestures.js"></script>
+
+</head>
+<body style="margin:0; overflow:hidden;">
+ <!-- Cena RA embutida que usa a webcam -->
+ <a-scene embedded arjs="sourceType: webcam;" gesture-detector>
+   <!-- Câmera controlada pelo AR.js -->
+   <a-entity camera></a-entity>
+   <!-- Marcador Hiro padrão -->
+   <a-marker preset="hiro">
+     <!-- Modelo GLB animado -->
+     <a-entity gltf-model="url(Globo.glb)" scale="2.5 2.5 2.5" position="0 0 0"
+       animation-mixer="clip:*; loop: repeat;" gesture-handler></a-entity>
+     <!-- Luz ambiente suave -->
+     <a-light type="ambient" color="#BBB"></a-light>
+     <!-- Luz direcional para realçar o modelo -->
+     <a-light type="directional" intensity="0.8" position="-1 4 5"></a-light>
+   </a-marker>
+ </a-scene>
+</body>
+</html>
